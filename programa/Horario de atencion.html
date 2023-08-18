@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Horario de atención al cliente </title>
+    <link rel="icon" href="https://es.seaicons.com/wp-content/uploads/2022/03/Dragon-Ball-icon.png" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div>
+
+        <style>
+
+            body {
+                background-image: url(https://img.freepik.com/vector-premium/fondo-vector-monocromo-blanco-abstracto-folleto-diseno-folleto-sitio-web-fondo-pantalla-blanco-geometrico-pagina-inicio-presentacion-certificado_249611-6006.jpg?w=900);
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            /*** ESTILOS BOTÓN GROW SKEW REVERSE ***/
+            .ov-btn-grow-skew-reverse {
+                background: #fff; /* color de fondo */
+                color: #4741d7; /* color de fuente */
+                border: 2px solid #4741d7; /* tamaño y color de borde */
+                padding: 16px 20px;
+                border-radius: 3px; /* redondear bordes */
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+                display: inline-block;
+            }                
+            
+
+                .ov-btn-grow-skew-reverse:hover {
+                    color: #fff; /* color de fuente hover */
+                }
+
+                .ov-btn-grow-skew-reverse::after {
+                    content: "";
+                    background: #4741d7; /* color de fondo hover */
+                    position: absolute;
+                    z-index: -1;
+                    padding: 16px 20px;
+                    display: block;
+                    left: -20%;
+                    right: -20%;
+                    top: 0;
+                    bottom: 0;
+                    transform: skewX(45deg) scale(0, 1);
+                    transition: all 0.3s ease;
+                }
+
+                .ov-btn-grow-skew-reverse:hover::after {
+                    transition: all 0.3s ease-out;
+                    transform: skewX(45deg) scale(1, 1);
+                }
+        </style>
+
+    </div>
+    <div>
+
+        <a href="Practica JS y HTML.html" class="ov-btn-grow-skew-reverse">Volver al inicio</a>
+
+    </div>
+
+    <center>
+
+        <h1> Nuestro horario de atención </h1>
+
+    </center>
+
+    <div>
+
+        <table>
+            <tr>
+                <!-- Comando para hacer una tabla sencilla -->
+                <th> Dia </th>
+                <th> Hora </th>
+                <th> Asesor </th>
+                <th> Contacto/Telefono </th>
+            </tr>
+
+            <tr>
+                <td> Lunes </td>
+                <td> 8:00am - 5:00pm </td>
+                <td> Jean Paul Pinzón Avendaño </td>
+                <td> 31053530358 </td>
+            </tr>
+
+            <tr>
+                <td>Martes</td>
+                <td> 8:00am - 5:00pm </td>
+                <td> Jean Paul Pinzón Avendaño </td>
+                <td> 31053530358 </td>
+            </tr>
+
+            <tr>
+                <td>Miércoles</td>
+                <td> 8:00am - 5:00pm </td>
+                <td> Jean Paul Pinzón Avendaño </td>
+                <td> 31053530358 </td>
+            </tr>
+
+            <tr>
+                <td> Jueves </td>
+                <td> 8:00am - 5:00pm </td>
+                <td> Jean Paul Pinzón Avendaño </td>
+                <td> 31053530358 </td>
+            </tr>
+
+            <tr>
+                <td>Viernes</td>
+                <td>8:00am - 5:00pm</td>
+                <td>Jean Paul Pinzón Avendaño</td>
+                <td> 31053530358 </td>
+            </tr>
+
+            <tr>
+                <td>Sábado</td>
+                <td> 9:00am - 2:00pm </td>
+                <td> Jean Paul Pinzón Avendaño </td>
+                <td> 31053530358 </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <br />
+
+    <div>
+
+        <script>
+
+            let resultado = window.confirm("¿Estás seguro?")
+
+            if (resultado === true) {
+
+                alert("Okay, si estas seguro.")
+            }
+
+            else {
+
+                alert("Pareces algo indeciso.")
+            }
+
+        </script>
+
+
+    </div>
+
+</body>
+</html>

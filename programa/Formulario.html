@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Puntos de atención </title>
+    <link rel="icon" href="https://es.seaicons.com/wp-content/uploads/2022/03/Dragon-Ball-icon.png" />
+</head>
+<body>
+
+    <div>
+
+        <a href="Practica JS y HTML.html" class="ov-btn-grow-skew-reverse">Volver</a>
+
+    </div>
+
+    <div>
+
+        <center>
+
+            <h1> Puntos de atención </h1>
+
+        </center>
+
+    </div>
+
+    <div>
+
+        <p>
+
+            Estos son nuestros puntos de atención donde puedes ir a: <br />
+
+            1). Aclarar tus dudad. <br />
+
+            2). Queja o reclamo. <br />
+
+            3). Algun tipo de inquietud. <br />
+
+
+
+        </p>
+
+    </div>
+
+    <div>
+
+        <style>
+
+            body {
+                background-image: url(https://img.freepik.com/vector-premium/fondo-vector-monocromo-blanco-abstracto-folleto-diseno-folleto-sitio-web-fondo-pantalla-blanco-geometrico-pagina-inicio-presentacion-certificado_249611-6006.jpg?w=900);
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            /*** ESTILOS BOTÓN GROW SKEW REVERSE ***/
+            .ov-btn-grow-skew-reverse {
+                background: #fff; /* color de fondo */
+                color: #4741d7; /* color de fuente */
+                border: 2px solid #4741d7; /* tamaño y color de borde */
+                padding: 16px 20px;
+                border-radius: 3px; /* redondear bordes */
+                position: relative;
+                z-index: 1;
+                overflow: hidden;
+                display: inline-block;
+            }
+
+                .ov-btn-grow-skew-reverse:hover {
+                    color: #fff; /* color de fuente hover */
+                }
+
+                .ov-btn-grow-skew-reverse::after {
+                    content: "";
+                    background: #4741d7; /* color de fondo hover */
+                    position: absolute;
+                    z-index: -1;
+                    padding: 16px 20px;
+                    display: block;
+                    left: -20%;
+                    right: -20%;
+                    top: 0;
+                    bottom: 0;
+                    transform: skewX(45deg) scale(0, 1);
+                    transition: all 0.3s ease;
+                }
+
+                .ov-btn-grow-skew-reverse:hover::after {
+                    transition: all 0.3s ease-out;
+                    transform: skewX(45deg) scale(1, 1);
+                }
+        </style>
+
+    </div>
+
+    <div>
+
+        <style>
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                background-color: #D7DBDD;
+            }
+
+            th, td {
+                text-align: left;
+                padding: 8px;
+            }
+
+            th {
+                background-color: #5499C7;
+                color: white;
+            }
+
+            tr:nth-child(even) {
+                background-color: #CACFD2;
+            }
+        </style>
+
+    </div>
+
+    <div>
+
+        <center>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Punto de atención</th>
+                        <th>Dirección de los puntos de atención</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Centro comercial Bulevar Niza</td>
+                        <td>Ak. 58 #127-59, Bogotá, Local 203</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial parque la colina</td>
+                        <td>Cra. 58d #146-51, Bogotá, Local 110</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial porto alegre</td>
+                        <td>Cra. 58 #137B-01, Bogotá, Local 202 </td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial centro mayor</td>
+                        <td>Cl. 38A Sur #34d-51, Bogotá, Local 308 </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total:</td>
+                        <td>4 puntos de atención</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </center>
+
+    </div>
+
+    <div>
+
+        <style>
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background: #f1f1f1;
+                font-family: Sans-Serif;
+            }
+
+            a {
+                text-decoration: none;
+                color: #333;
+            }
+
+            .w100 {
+                width: 100%;
+            }
+
+            .contenedor {
+                width: 1024px;
+            }
+
+            .centrado {
+                margin: 0 auto;
+                display: block;
+            }
+
+            .menu {
+                /* Menu centrado */
+                float: left;
+                left: 50%;
+                list-style-type: none;
+                margin: 0 auto;
+                padding: 0;
+                position: relative;
+            }
+
+                .menu li {
+                    /* Estilo item */
+                    margin: .5em 1em .5em 1em;
+                    overflow: hidden;
+                    /* Menu centrado */
+                    float: left;
+                    position: relative;
+                    right: 50%;
+                }
+
+                    /* Items del menu */
+                    .menu li a {
+                        /* Estilo item */
+                        height: 2em;
+                        line-height: 2em;
+                        padding: .5em 2em .5em 2em;
+                        background: #fff;
+                    }
+
+                    .menu li:hover a {
+                        /* Estilo item */
+                        background: #00b0f0;
+                        color: #fff;
+                    }
+
+                    .menu li:hover ul li a {
+                        /* Estilo item */
+                        background: rgba(0,0,0,0);
+                        color: #333;
+                        padding-left: 1em;
+                    }
+
+                    /* Definir estilo de los items del submenu y ocultarlos */
+                    .menu li ul li {
+                        /* Estilo item */
+                        height: 0;
+                        line-height: 1.5em;
+                        background: #fff;
+                        padding: 0;
+                        margin: .25em .5em .25em .5em;
+                        overflow: hidden;
+                        /* Override menu centrado */
+                        float: none;
+                        position: relative;
+                        right: 0;
+                        /* Animacion */
+                        -moz-transition-duration: .3s;
+                        -webkit-transition-duration: .3s;
+                        -o-transition-duration: .3s;
+                        transition-duration: .3s;
+                    }
+
+                        .menu li ul li:hover {
+                            /* Estilo item */
+                            border-left: 5px solid #00b0f0;
+                        }
+
+                    /* Mostrar items del submenu*/
+                    .menu li:hover ul li {
+                        /* Mostrar item */
+                        min-height: 2em;
+                        display: block;
+                        float: none;
+                    }
+        </style>
+
+    </div>
+
+    <div class="w100">
+
+        <form class="contenedor centrado" id="frmInicio" runat="server">
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li>
+                    <a href="#">Paquetes y promociones</a>
+                    <ul>
+                        <li><a href="#">Paquete 1</a></li>
+                        <li><a href="#">Paquete 2</a></li>
+                        <li><a href="#">Paquete 3</a></li>
+                        <li><a href="#">Paquete 4</a></li>
+                        <li><a href="#">Promocion 1</a></li>
+                        <li><a href="#">Promocion 2</a></li>
+                        <li><a href="#">Promocion 3</a></li>
+                        <li><a href="#">Promocion 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Hoteles</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </form>
+
+    </div>
+</body>
+</html>

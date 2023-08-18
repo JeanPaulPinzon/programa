@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Prueba Jean Paul </title>
+    <link rel="icon" href="https://es.seaicons.com/wp-content/uploads/2022/03/Dragon-Ball-icon.png" />
+
+
+</head>
+<body>
+    <div class="Encabezado">
+
+        <center> <h1 style="color: white"> Prueba JS Y HTML</h1> </center>
+
+        <nav>
+
+
+            <ul>
+                <li> <a style="color: white" href="#">Inicio</a> </li>
+                <li>
+                    <a style="color: white" href="#">Servicios</a>
+
+                    <ul>
+                        <li> <p><a style="color: white" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank" title="Página principal del SENA"> SofiaPlus </a> </p> </li>
+                        <li> <a style="color: white" href="https://drive.google.com/drive/folders/1jq1qj-UzqjCU90J0Qmbughn8yT6qXHZi?usp=sharing" target="_blank" title="Portafolio Jean Pinzón">Mi portafolio</a> </li>
+                        <li> <a style="color: white" href="https://sena.territorio.la/index.php?login=true" target="_blank" title="Página de territorium">Territorioum</a> </li>
+                        <li>
+
+                            <a style="color: white" href="#">Más servicios</a>
+
+                            <ul>
+                                <li> <a style="color: white" href="https://caprendizaje.sena.edu.co/sgva/SGVA_Diseno/pag/login.aspx" target="_blank" title="Ir al sistema de gestion virtual de aprendices (SGVA)">SGVA</a> </li>
+                                <li> <a style="color: white" href="#">Servicio 6</a> </li>
+                                <li> <a style="color: white" href="#">Servicio 7</a> </li>
+                                <li>
+                                    <a style="color: white" href="#">Más servicios</a>
+
+                                    <ul>
+                                        <li> <a style="color: white" href="#">Servicio 9</a> </li>
+                                        <li> <a style="color: white" href="#">Servicio 10</a> </li>
+                                        <li> <a style="color: white" href="#">Servicio 11</a> </li>
+                                        <li> <a style="color: white" href="#">Servicio 12</a> </li>
+
+                                    </ul>
+
+                                </li>
+                            </ul>
+
+                        </li>
+                    </ul>
+
+                </li>
+                <li> <a style="color: white" href="file:///C:/Users/JeanPaulPinzonAvenda/Desktop/programa/Practica%20%232.html">Nosotros</a> </li>
+                <li>
+                    <a style="color: white" href="#">Acerca de</a>
+                    <ul>
+                        <li> <a style="color: white" href="Vista.html">Quiénes somos</a> </li>
+                        <li> <a style="color: white" href="Que hacemos.html">Que hacemos</a> </li>
+                        <li> <a style="color: white" href="Horario de atencion.html">Horarios de atención</a> </li>
+                        <li> <a style="color: white" href="Formulario.html">Puntos de atención</a> </li>
+
+                    </ul>
+                </li>
+                <li> <a style="color: white" href="Contacto.html">Contacto</a> </li>
+            </ul>
+        </nav>
+
+        <style>
+
+            body {
+                background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/Im%C3%A1genes-de-fondo-para-sitio-web.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+
+
+            .img {
+                width: 40px;
+                border-radius: 50%
+            }
+
+            .Encabezado nav {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 15px
+            }
+
+                .Encabezado nav ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                color: black;
+                padding: 12px 20px;
+                display: block;
+            }
+
+                a:hover {
+                    background: rgb(0, 0, 0);
+                }
+
+            .Encabezado nav ul li ul {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .Encabezado nav ul li ul {
+                position: absolute;
+            }
+
+                .Encabezado nav ul li ul li {
+                    width: 180px;
+                    position: relative;
+                }
+
+                    .Encabezado nav ul li ul li ul {
+                        top: 0%;
+                        left: 180px;
+                        position: absolute;
+                    }
+
+            .Encabezado nav ul li ul {
+                display: none;
+            }
+
+            .Encabezado nav ul li:hover > ul {
+                display: block;
+            }
+        </style>
+
+        <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> 
+
+        
+
+    </div>
+
+    <div>
+        
+        <script>
+            //alert("Bienvenido a la pagina de prueba");
+
+        </script>
+
+        <script>
+            'use strict';
+
+            let nombre = prompt("Por favor ingresa tu nombre completo: ", "",);
+            alert(`Tu nombre completo es: ${nombre}`);
+
+            let apellido = prompt("Por favor ingresa tu apellido completo: ", "",);
+            alert(`Tu apellido completo es es: ${apellido}`)
+
+            let edad = prompt('Por favor ingresa tu edad: ', "",);
+            alert(`Tienes ${edad} años!`);
+
+            
+        </script>
+
+        <script>
+            //Este es un scrip de una lista
+            let ciudades = ["CDMX", "Guadalajara", "Mazatlán", "Tepic", "Bogotá", "Cali", "Medellin", "Barranquilla"];
+            
+        </script>
+
+
+
+        <script>
+
+            var persona = [];
+
+            persona[0] = "Jean Paul";
+            persona[1] = "Pinzón Avendaño";
+            persona[2] = 22;
+
+            var x = persona.length;
+
+            var nombre = persona[0];
+            var apellido_1 = persona[1];
+            var edad = persona[2];
+
+        </script>
+
+
+        <script>
+            var cadenaEjemplo = 'cadena de ejemplo';
+            function obtenUsuario() {
+                return 'Paul';
+            }
+        </script>
+
+        <br />
+        <br />
+
+        <div>
+            <img src="https://calendarena.com/wp-content/uploads/2021/05/calendario-2023-colombia.png" width="640" height="640" />
+        </div>
+
+        <br />
+        <br />
+
+        <p style="color: white">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing commodo elit
+            at imperdiet dui accumsan sit. Sed vulputate odio ut enim blandit. Sed turpis tincidunt id aliquet risus feugiat in. Eget nullam non nisi est sit amet facilisis magna.
+            Sed risus pretium quam vulputate dignissim suspendisse in. Dictum fusce ut placerat orci nulla. Lacus luctus accumsan tortor posuere.
+            Lectus urna duis convallis convallis tellus. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Metus vulputate eu scelerisque felis imperdiet.
+            Est sit amet facilisis magna etiam tempor. At quis risus sed vulputate odio ut. Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices.
+            Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices.
+
+            Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Nunc mi ipsum faucibus vitae aliquet nec. Accumsan in nisl nisi scelerisque eu. Sagittis orci a scelerisque
+            purus semper eget duis. Porttitor rhoncus dolor purus non. Sagittis nisl rhoncus mattis rhoncus urna neque viverra. Dui faucibus in ornare quam viverra orci.
+            A arcu cursus vitae congue mauris rhoncus. Enim tortor at auctor urna nunc id cursus metus aliquam. Hendrerit dolor magna eget est lorem ipsum. Sollicitudin ac orci
+            phasellus egestas tellus. Est ullamcorper eget nulla facilisi. Turpis egestas maecenas pharetra convallis posuere morbi leo. Rhoncus mattis rhoncus urna neque viverra
+            justo nec ultrices dui. Sollicitudin tempor id eu nisl nunc mi. Dui id ornare arcu odio ut sem nulla pharetra. Sagittis id consectetur purus ut faucibus.
+
+            Mauris nunc congue nisi vitae. Consectetur libero id faucibus nisl tincidunt. Aliquam vestibulum morbi blandit cursus risus at ultrices. Sit amet dictum sit amet
+            justo donec enim diam vulputate. Nibh praesent tristique magna sit. Viverra adipiscing at in tellus integer feugiat scelerisque. Convallis a cras semper auctor neque
+            vitae tempus quam pellentesque. Volutpat odio facilisis mauris sit amet massa vitae. Purus gravida quis blandit turpis. Lorem ipsum dolor sit amet consectetur adipiscing.
+            Eu sem integer vitae justo. Consequat mauris nunc congue nisi vitae suscipit tellus. Orci sagittis eu volutpat odio facilisis mauris sit. Sit amet consectetur adipiscing
+            elit.
+
+            Integer malesuada nunc vel risus. Odio morbi quis commodo odio aenean. Ipsum nunc aliquet bibendum enim facilisis gravida neque. Morbi blandit cursus risus at ultrices
+            mi tempus imperdiet nulla. Donec ultrices tincidunt arcu non sodales neque sodales. Integer quis auctor elit sed. Luctus venenatis lectus magna fringilla urna porttitor
+            rhoncus dolor purus. Metus vulputate eu scelerisque felis. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Accumsan sit amet nulla facilisi
+            morbi. Est ullamcorper eget nulla facilisi etiam dignissim diam quis. Sollicitudin ac orci phasellus egestas tellus rutrum. Enim blandit volutpat maecenas volutpat blandit
+            aliquam. In dictum non consectetur a erat. Nullam eget felis eget nunc lobortis.
+
+        </p>
+
+
+        <br />
+        <br />
+
+    </div>
+
+
+    <div>
+
+        <!-- HTML -->
+        <form>
+            <label for="nombre" style="color:white">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <br />
+
+            <label for="email" style="color:white">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br />
+
+            <label for="password" style="color:white"> Contraseña:</label>
+            <input type="password" name="password" required/>
+
+            <br />
+
+            <button type="submit">Ingresar</button>
+        </form>
+
+        <!-- CSS -->
+        <style>
+            form {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            label {
+                margin-bottom: 10px;
+            }
+
+            input {
+                padding: 5px;
+                margin-left: 10px;
+            }
+
+            button {
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        </style>
+
+        <!-- JavaScript -->
+        <script>
+            // Obtener el formulario
+            var formulario = document.querySelector('form');
+
+            // Agregar un evento para el envío del formulario
+            formulario.addEventListener('submit', function (event) {
+                // Prevenir el envío del formulario
+                event.preventDefault();
+
+                // Obtener los valores de los campos
+                var nombre = document.getElementById('nombre').value;
+                var email = document.getElementById('email').value;
+
+                // Validar los campos
+                if (nombre === '' || email === '') {
+                    alert('Por favor, complete todos los campos.');
+                    return;
+                }
+
+                // Enviar los datos a través de AJAX
+                // ...
+            });
+        </script>
+
+
+
+    </div>
+    
+</body>
+</html>

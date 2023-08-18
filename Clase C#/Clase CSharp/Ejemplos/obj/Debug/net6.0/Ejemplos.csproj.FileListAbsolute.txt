@@ -1,0 +1,15 @@
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\bin\Debug\net6.0\Ejemplos.exe
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\bin\Debug\net6.0\Ejemplos.deps.json
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\bin\Debug\net6.0\Ejemplos.runtimeconfig.json
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\bin\Debug\net6.0\Ejemplos.dll
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\bin\Debug\net6.0\Ejemplos.pdb
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\Ejemplos.csproj.AssemblyReference.cache
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\Ejemplos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\Ejemplos.AssemblyInfoInputs.cache
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\Ejemplos.AssemblyInfo.cs
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\Ejemplos.csproj.CoreCompileInputs.cache
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\Ejemplos.dll
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\refint\Ejemplos.dll
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\Ejemplos.pdb
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\Ejemplos.genruntimeconfig.cache
+C:\Users\JeanPaulPinzonAvenda\Desktop\Clase C#\Clase CSharp\Ejemplos\obj\Debug\net6.0\ref\Ejemplos.dll

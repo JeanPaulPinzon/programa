@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicios de prueba</title>
+    <link rel="icon" href="https://es.seaicons.com/wp-content/uploads/2022/03/Dragon-Ball-icon.png" />
+</head>
+<body>
+
+    <h1>Ejercicios de prueba en javascript</h1>
+
+ 
+    <div>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+        <script>
+
+            Swal.fire({
+                title: 'Atención!',
+                text: 'Tienes algun tipo de fallo',
+                icon: 'warning',
+                confirmButtonText: 'Aceptar',
+                cancelButtonText: 'Cancelar',
+                showCancelButton: true,
+                showCloseButton: true
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    // Código a ejecutar si se pulsa "Aceptar"
+                } else if (result.isDenied) {
+                    // Código a ejecutar si se pulsa "Cancelar"
+                }
+            })
+
+
+        </script>
+    </div>
+
+    <div>
+
+        <table>
+
+            <tr>
+
+                <td colspan="4"><input type="text" id="resultado" disabled></td>
+
+            </tr>
+
+            <tr>
+
+                <td><input type="button" value="1" onclick="agregar_numero('1')" /></td>
+                <td><input type="button" value="2" onclick="agregar_numero('2')" /></td>
+                <td><input type="button" value="3" onclick="agregar_numero('3')" /></td>
+                <td><input type="button" value="+" onclick="agregar_operador('+')" /></td>
+
+            </tr>
+
+            <tr>
+
+                <td><input type="button" value="4" onclick="agregar_numero('4')" /></td>
+                <td><input type="button" value="5" onclick="agregar_numero('5')" /></td>
+                <td><input type="button" value="6" onclick="agregar_numero('6')" /></td>
+                <td><input type="button" value="-" onclick="agregar_operador('-')" /></td>
+
+            </tr>
+
+            <tr>
+
+                <td><input type="button" value="7" onclick="agregar_numero('7')" /></td>
+                <td><input type="button" value="8" onclick="agregar_numero('8')" /></td>
+                <td><input type="button" value="9" onclick="agregar_numero('9')" /></td>
+                <td><input type="button" value="*" onclick="agregar_operador('*')" /></td>
+
+            </tr>
+
+            <tr>
+
+                <td><input type="button" value="0" onclick="agregar_numero('0')" /></td>
+                <td><input type="button" value="." onclick="agregar_decimal()" /></td>
+                <td><input type="button" value="C" onclick="borrar()" /></td>
+                <td><input type="button" value="/" onclick="agregar_operador('/')" /></td>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="4"><input type="button"value="="onclick="calcular()"/></td>
+
+            </tr>
+
+        </table>
+
+        <script>
+
+            function agregar_numero(numero) {
+                document.getElementById('resultado').value += numero
+            }
+
+            function agregar_operador(operador) {
+                document.getElementById('resultado').value += operador
+            }
+
+            function agregar_decimal() {
+                if (document.getElementById('resultado').value.indexOf('.') == -1) {
+                    document.getElementById('resultado').value += '.'
+                }
+            }
+
+            function borrar() {
+                document.getElementById('resultado').value = ''
+            }
+
+            function calcular() {
+                let resultado = eval(document.getElementById('resultado').value)
+                document.getElementById('resultado').value = resultado
+            }
+
+        </script>
+
+    </div>
+
+</body>
+</html>
